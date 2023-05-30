@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>MR.BEAN</h2>
+    <img src="bean.jpg" style="position:absolute;left:60px;top:70px;height:600px">
+    <div class="eyes">
+        <div class="eye">
+            <div class="ball">
+
+            </div>
+        </div>
+    
+    
+        <div class="eye">
+            <div class="ball">
+
+            </div>
+        </div>
+        </div>
+        <script src="bean.js"></script>
+</body>
+</html>
+<style>
+    body{
+        text-align: center;
+        background-color: salmon;
+    }
+    .eyes{
+        position: absolute;
+        top:60%;
+        transform: translateY(-50%);
+        width:100%;
+        text-align: center;
+
+    }
+    .eye{
+        width:80px;
+        height:85px;
+        background: #fff;
+        display: inline-block;
+        margin: 29px;
+        border:5px solid#000;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+    }
+    .ball{
+        width:20px;
+        height:20px;
+        background: #000;
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+    }
+
+    </style>
